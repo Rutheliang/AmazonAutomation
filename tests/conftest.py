@@ -1,12 +1,10 @@
 import pytest
 from selenium import webdriver
-import time
 
-driver = None # need for the screenshot -> def _capture_screenshot(name):
+driver = None  # need for the screenshot -> def _capture_screenshot(name):
 
-from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.options import Options
-# chrome driver
+
 from selenium.webdriver.chrome.service import Service
 
 
