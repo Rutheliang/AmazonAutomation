@@ -6,31 +6,31 @@ class CreateAccountPage:
     def __init__(self, driver):
         self.driver = driver
 
-    name = (By.ID, "ap_customer_name")
-    email = (By.ID, "ap_email")
-    password = (By.ID, "ap_password")
-    pwcheck = (By.ID, "ap_password_check")
-    button3 = (By.ID, "continue")
-    mismatch = (By.XPATH, "//div[@id='auth-password-mismatch-alert']/div/div")
-    amazon = (By.CSS_SELECTOR, "i[class='a-icon a-icon-logo']")
+    NAME = (By.ID, "ap_customer_name")
+    EMAIL = (By.ID, "ap_email")
+    PASSWORD = (By.ID, "ap_password")
+    PWCHECK = (By.ID, "ap_password_check")
+    BUTTON3 = (By.ID, "continue")
+    MISMATCH = (By.XPATH, "//div[@id='auth-password-mismatch-alert']/div/div")
+    AMAZON = (By.CSS_SELECTOR, "i[class='a-icon a-icon-logo']")
 
     def getName(self):
-        return self.driver.find_element(*CreateAccountPage.name)
+        return self.driver.find_element(*CreateAccountPage.NAME)
 
     def getEmail(self):
-        return self.driver.find_element(*CreateAccountPage.email)
+        return self.driver.find_element(*CreateAccountPage.EMAIL)
 
     def getPassword(self):
-        return self.driver.find_element(*CreateAccountPage.password)
+        return self.driver.find_element(*CreateAccountPage.PASSWORD)
 
     def getPwcheck(self):
-        return self.driver.find_element(*CreateAccountPage.pwcheck)
+        return self.driver.find_element(*CreateAccountPage.PWCHECK)
 
     def getButton3(self):
-        return self.driver.find_element(*CreateAccountPage.button3)
+        return self.driver.find_element(*CreateAccountPage.BUTTON3)
 
     def getMismatch(self):
-        return self.driver.find_element(*CreateAccountPage.mismatch)
+        return self.driver.find_element(*CreateAccountPage.MISMATCH)
 
     def getAmazon(self):
-        return self.driver.find_element(*CreateAccountPage.amazon)
+        return self.driver.find_element(*CreateAccountPage.AMAZON)

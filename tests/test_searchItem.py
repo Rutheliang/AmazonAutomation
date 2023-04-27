@@ -7,7 +7,6 @@ from pageObject.ResultPage import ResultPage
 from pageObject.SigninPage import SigninPage
 from testData.SigninPageData import SigninPageData
 from utilities.BaseClass import BaseClass
-
 import time
 
 
@@ -15,43 +14,41 @@ class TestOne(BaseClass):
 
     def test_searchItem(self, signinData):
         log = self.getLogger()
-        homePage = HomePage(self.driver)
+        home_page = HomePage(self.driver)
 
         log.info("Search roblox item")
-        homePage.getSearch().send_keys("roblox")
+        home_page.getSearch().send_keys("roblox plushies")
 
         time.sleep(2)
 
         log.info("Select roblox plushies")
-        roblox = homePage.getItems()
+        roblox = home_page.getItems()
         log.info(len(roblox))
-        for robloxP in roblox:
-            if robloxP.text == "roblox plushies":
-                robloxP.click()
+        for item in roblox:
+            if item.text == "roblox plushies for girls":
+                item.click()
                 break
 
-        log.info(homePage.getValue().get_attribute("value"))
+        log.info(home_page.getValue().get_attribute("value"))
 
-        resultPage = ResultPage(self.driver)
-        resultPage.getBrand().click()
-        resultPage.getAge().click()
-        resultPage.getChoose().click()
+        result_page = ResultPage(self.driver)
+        result_page.add_selected_item_to_cart()
 
-        log.info("Add selected item to cart")
-        cartCheckoutPage = CartCheckoutPage(self.driver)
-        cartCheckoutPage.getCart().click()
-        cartCheckoutPage.getCheckout().click()
+        log.info("Selected item added to cart")
+        cart_checkout_page = CartCheckoutPage(self.driver)
+        cart_checkout_page.getCart().click()
+        cart_checkout_page.getCheckout().click()
 
-        signInPage = SigninPage(self.driver)
-        signInPage.getSignin().send_keys(signinData["email"])
+        signin_page = SigninPage(self.driver)
+        signin_page.getSignin().send_keys(signinData["email"])
 
-        signInPage.getButton().click()
-        signInPage.getPw().send_keys(signinData["password"])
-        signInPage.getButton2().click()
+        signin_page.getButton().click()
+        signin_page.getPw().send_keys(signinData["password"])
+        signin_page.getButton2().click()
 
         self.driver.refresh()
 
-        signInPage.getAmazon().click()
+        signin_page.getAmazon().click()
 
     @pytest.fixture(params=SigninPageData.test_SignPage_Data)
     def signinData(self, request):
