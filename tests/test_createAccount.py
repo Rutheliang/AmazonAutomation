@@ -16,16 +16,13 @@ class TestOne(BaseClass):
         home_page.register_link()
 
         create_account = CreateAccountPage(self.driver)
-        create_account.user_name().send_keys(createAccountData["name"])
-        create_account.user_email().send_keys(createAccountData["email"])
-        create_account.user_password().send_keys(createAccountData["pw"])
-        create_account.re_enter_password().send_keys(createAccountData["pwcheck"])
-        create_account.create_account_button().click()
+        create_account.create_account_data(createAccountData)
+
         self.passwordMismatch = create_account.password_mismatch().text
 
         assert "Passwords must match" == self.passwordMismatch
 
-        create_account.amazon_link().click()
+        create_account.amazon_link()
 
         self.driver.refresh()
 
