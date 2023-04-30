@@ -12,20 +12,20 @@ class TestOne(BaseClass):
     def test_createAccount(self, createAccountData):
         action = ActionChains(self.driver)
         home_page = HomePage(self.driver)
-        action.move_to_element(home_page.getHover()).perform()
-        home_page.getStart().click()
+        action.move_to_element(home_page.hover_signin()).perform()
+        home_page.register_link()
 
-        account_page = CreateAccountPage(self.driver)
-        account_page.getName().send_keys(createAccountData["name"])
-        account_page.getEmail().send_keys(createAccountData["email"])
-        account_page.getPassword().send_keys(createAccountData["pw"])
-        account_page.getPwcheck().send_keys(createAccountData["pwcheck"])
-        account_page.getButton3().click()
-        self.passwordMismatch = account_page.getMismatch().text
+        create_account = CreateAccountPage(self.driver)
+        create_account.user_name().send_keys(createAccountData["name"])
+        create_account.user_email().send_keys(createAccountData["email"])
+        create_account.user_password().send_keys(createAccountData["pw"])
+        create_account.re_enter_password().send_keys(createAccountData["pwcheck"])
+        create_account.create_account_button().click()
+        self.passwordMismatch = create_account.password_mismatch().text
 
         assert "Passwords must match" == self.passwordMismatch
 
-        account_page.getAmazon().click()
+        create_account.amazon_link().click()
 
         self.driver.refresh()
 

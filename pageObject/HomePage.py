@@ -8,26 +8,26 @@ class HomePage:
 
     SEARCH = (By.ID, "twotabsearchtextbox")
     ITEMS = (By.CSS_SELECTOR, "div[class='s-suggestion s-suggestion-ellipsis-direction']")
-    VALUE = (By.ID, "twotabsearchtextbox")
+    SELECTED = (By.ID, "twotabsearchtextbox")
     HOVER = (By.CSS_SELECTOR, "span[id*='accountList']")
-    START = (By.CSS_SELECTOR, "a[href*='https://www.amazon.com/ap/register?openid.pape.max']")
+    REGISTER = (By.CSS_SELECTOR, "a[href*='https://www.amazon.com/ap/register?openid.pape.max']")
 
-    def getSearch(self):
-        return self.driver.find_element(*HomePage.SEARCH)
+    def search_item(self):
+        self.driver.find_element(*HomePage.SEARCH).send_keys("roblox")
         # self.driver.find_element(By.ID, "twotabsearchtextbox")
 
-    def getItems(self):
+    def get_items(self):
         return self.driver.find_elements(*HomePage.ITEMS)
         # self.driver.find_elements(By.CSS_SELECTOR, "div[class='s-suggestion s-suggestion-ellipsis-direction']")
 
-    def getValue(self):
-        return self.driver.find_element(*HomePage.VALUE)
+    def item_selected(self):
+        return self.driver.find_element(*HomePage.SELECTED)
         # self.driver.find_element(By.ID, "twotabsearchtextbox").get_attribute("value")
 
-    def getHover(self):
+    def hover_signin(self):
         return self.driver.find_element(*HomePage.HOVER)
         # action.move_to_element(self.driver.find_element(By.CSS_SELECTOR, "span[id*='accountList']")).perform()
 
-    def getStart(self):
-        return self.driver.find_element(*HomePage.START)
+    def register_link(self):
+        self.driver.find_element(*HomePage.REGISTER).click()
         # self.driver.find_element(By.CSS_SELECTOR, "a[href*='https://www.amazon.com/ap/register?openid.pape.max']").click()

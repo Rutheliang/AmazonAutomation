@@ -9,10 +9,6 @@ class CartCheckoutPage:
     CART = (By.CSS_SELECTOR, "input[id='add-to-cart-button']")
     CHECKOUT = (By.CSS_SELECTOR, "input[name='proceedToRetailCheckout']")
 
-    def getCart(self):
-        return self.driver.find_element(*CartCheckoutPage.CART)
-        # self.driver.find_element(By.CSS_SELECTOR, "input[id='add-to-cart-button']")
-
-    def getCheckout(self):
-        return self.driver.find_element(*CartCheckoutPage.CHECKOUT)
-        # self.driver.find_element(By.CSS_SELECTOR, "input[name='proceedToRetailCheckout']")
+    def go_to_checkout(self):
+        self.driver.find_element(*CartCheckoutPage.CART).click()
+        self.driver.find_element(*CartCheckoutPage.CHECKOUT).click()

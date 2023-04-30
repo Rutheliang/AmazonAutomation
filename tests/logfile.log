@@ -601,3 +601,134 @@
 2023-04-21 21:18:29,735 :INFO : test_searchItem :10
 2023-04-21 21:18:32,187 :INFO : test_searchItem :roblox plushies for girls
 2023-04-21 21:18:37,720 :INFO : test_searchItem :Selected item added to cart
+2023-04-26 22:47:50,351 :INFO : test_searchItem :Search roblox item
+2023-04-26 22:47:52,500 :INFO : test_searchItem :Select roblox plushies
+2023-04-26 22:47:52,514 :INFO : test_searchItem :10
+2023-04-26 22:47:54,380 :INFO : test_searchItem :roblox plushies for girls
+2023-04-26 22:48:00,305 :INFO : test_searchItem :Item added to cart
+2023-04-26 22:53:41,358 :INFO : test_searchItem :Search roblox item
+2023-04-26 22:53:43,508 :INFO : test_searchItem :Select roblox plushies
+2023-04-26 22:53:43,525 :INFO : test_searchItem :10
+2023-04-26 22:53:46,019 :INFO : test_searchItem :roblox plushies for girls
+2023-04-26 22:53:52,649 :INFO : test_searchItem :Item added to cart
+2023-04-26 22:55:44,881 :INFO : test_searchItem :Search roblox item
+2023-04-26 22:55:47,011 :INFO : test_searchItem :Select roblox plushies
+2023-04-26 22:55:47,022 :INFO : test_searchItem :10
+2023-04-26 22:55:48,676 :INFO : test_searchItem :roblox plushies for girls
+2023-04-26 22:55:54,186 :INFO : test_searchItem :Item added to cart
+2023-04-26 22:56:29,606 :INFO : test_searchItem :Search roblox item
+2023-04-26 22:56:31,733 :INFO : test_searchItem :Select roblox plushies
+2023-04-26 22:56:31,748 :INFO : test_searchItem :10
+2023-04-26 22:56:33,639 :INFO : test_searchItem :roblox plushies for girls
+2023-04-26 22:56:39,230 :INFO : test_searchItem :Item added to cart
+2023-04-26 23:00:13,275 :INFO : test_searchItem :Search roblox item
+2023-04-26 23:00:15,392 :INFO : test_searchItem :Select roblox plushies
+2023-04-26 23:00:15,410 :INFO : test_searchItem :10
+2023-04-26 23:00:17,302 :INFO : test_searchItem :roblox plushies for girls
+2023-04-26 23:00:22,438 :INFO : test_searchItem :Item added to cart
+2023-04-26 23:24:10,503 :INFO : test_searchItem :Search roblox item
+2023-04-26 23:24:12,640 :INFO : test_searchItem :Select roblox plushies
+2023-04-26 23:24:12,657 :INFO : test_searchItem :10
+2023-04-26 23:24:14,364 :INFO : test_searchItem :roblox plushies for girls
+2023-04-26 23:24:19,954 :INFO : test_searchItem :Item added to cart
+2023-04-27 20:41:25,678 :INFO : test_searchItem :Search roblox item
+2023-04-27 20:41:27,789 :INFO : test_searchItem :Select roblox plushies
+2023-04-27 20:41:27,794 :INFO : test_searchItem :10
+2023-04-27 20:41:29,647 :INFO : test_searchItem :roblox plushies for girls
+2023-04-27 20:41:37,362 :INFO : test_searchItem :Item added to cart
+2023-04-27 21:31:37,099 :INFO : test_searchItem :Search roblox item
+2023-04-27 21:31:39,207 :INFO : test_searchItem :Select roblox plushies
+2023-04-27 21:31:39,213 :INFO : test_searchItem :10
+2023-04-27 21:31:41,077 :INFO : test_searchItem :roblox plushies for girls
+2023-04-27 21:31:48,521 :INFO : test_searchItem :Item added to cart
+2023-04-27 21:36:14,065 :INFO : test_searchItem :Search roblox item
+2023-04-27 21:36:16,152 :INFO : test_searchItem :Select roblox plushies
+2023-04-27 21:36:16,158 :INFO : test_searchItem :10
+2023-04-27 21:36:17,809 :INFO : test_searchItem :roblox plushies for girls
+2023-04-27 21:36:24,212 :INFO : test_searchItem :Item added to cart
+2023-04-27 21:39:21,552 :INFO : test_searchItem :Search roblox item
+2023-04-27 21:39:23,657 :INFO : test_searchItem :Select roblox plushies
+2023-04-27 21:39:23,663 :INFO : test_searchItem :10
+2023-04-27 21:39:25,431 :INFO : test_searchItem :roblox plushies for girls
+2023-04-27 21:39:31,075 :INFO : test_searchItem :Item added to cart
+2023-04-27 21:41:58,551 :INFO : test_searchItem :Search roblox item
+2023-04-27 21:42:00,707 :INFO : test_searchItem :Select roblox plushies
+2023-04-27 21:42:00,712 :INFO : test_searchItem :10
+2023-04-27 21:42:02,689 :INFO : test_searchItem :roblox plushies for girls
+2023-04-27 21:42:09,111 :INFO : test_searchItem :Item added to cart
+2023-04-27 21:53:19,105 :INFO : test_searchItem :Search roblox item
+2023-04-27 21:53:21,215 :INFO : test_searchItem :Select roblox
+2023-04-27 21:53:21,221 :INFO : test_searchItem :10
+2023-04-27 21:53:21,280 :INFO : test_searchItem :roblox
+2023-04-27 22:00:09,802 :INFO : test_searchItem :Search roblox item
+2023-04-27 22:00:11,903 :INFO : test_searchItem :Select roblox
+2023-04-27 22:00:11,909 :INFO : test_searchItem :10
+2023-04-27 22:00:11,968 :INFO : test_searchItem :roblox
+2023-04-28 07:16:59,759 :INFO : test_searchItem :Search roblox item
+2023-04-28 07:17:01,969 :INFO : test_searchItem :Select roblox toy
+2023-04-28 07:17:01,979 :INFO : test_searchItem :10
+2023-04-28 07:17:02,047 :INFO : test_searchItem :roblox
+2023-04-28 07:17:22,610 :INFO : test_searchItem :Search roblox item
+2023-04-28 07:17:24,744 :INFO : test_searchItem :Select roblox toy
+2023-04-28 07:17:24,759 :INFO : test_searchItem :10
+2023-04-28 07:17:26,548 :INFO : test_searchItem :roblox toys
+2023-04-28 07:17:32,357 :INFO : test_searchItem :Item added to cart
+2023-04-28 14:23:05,173 :INFO : test_searchItem :Search roblox item
+2023-04-28 14:23:07,291 :INFO : test_searchItem :Select roblox toy
+2023-04-28 14:23:07,306 :INFO : test_searchItem :10
+2023-04-28 14:23:08,895 :INFO : test_searchItem :roblox toys
+2023-04-28 14:23:14,770 :INFO : test_searchItem :Item added to cart
+2023-04-28 14:29:21,940 :INFO : test_searchItem :Search roblox item
+2023-04-28 14:29:24,042 :INFO : test_searchItem :Select roblox toy
+2023-04-28 14:29:24,057 :INFO : test_searchItem :10
+2023-04-28 14:29:25,961 :INFO : test_searchItem :roblox toys
+2023-04-28 14:29:32,727 :INFO : test_searchItem :Item added to cart
+2023-04-28 14:32:23,286 :INFO : test_searchItem :Search roblox item
+2023-04-28 14:32:25,388 :INFO : test_searchItem :Select roblox toy
+2023-04-28 14:32:25,416 :INFO : test_searchItem :10
+2023-04-28 14:32:27,191 :INFO : test_searchItem :roblox toys
+2023-04-28 14:32:32,652 :INFO : test_searchItem :Item added to cart
+2023-04-28 14:33:24,859 :INFO : test_searchItem :Search roblox item
+2023-04-28 14:33:26,980 :INFO : test_searchItem :Select roblox toy
+2023-04-28 14:33:26,994 :INFO : test_searchItem :10
+2023-04-28 14:33:31,354 :INFO : test_searchItem :roblox toys
+2023-04-28 14:33:37,087 :INFO : test_searchItem :Item added to cart
+2023-04-28 14:44:30,060 :INFO : test_searchItem :Search roblox item
+2023-04-28 14:44:32,151 :INFO : test_searchItem :Select roblox toy
+2023-04-28 14:44:32,168 :INFO : test_searchItem :10
+2023-04-28 14:44:34,169 :INFO : test_searchItem :roblox toys
+2023-04-28 14:46:05,694 :INFO : test_searchItem :Search roblox item
+2023-04-28 14:46:07,798 :INFO : test_searchItem :Select roblox toy
+2023-04-28 14:46:07,816 :INFO : test_searchItem :10
+2023-04-28 14:46:09,612 :INFO : test_searchItem :roblox toys
+2023-04-28 14:46:51,372 :INFO : test_searchItem :Search roblox item
+2023-04-28 14:46:53,489 :INFO : test_searchItem :Select roblox toy
+2023-04-28 14:46:53,506 :INFO : test_searchItem :10
+2023-04-28 14:46:55,609 :INFO : test_searchItem :roblox toys
+2023-04-28 14:48:58,495 :INFO : test_searchItem :Search roblox item
+2023-04-28 14:49:00,606 :INFO : test_searchItem :Select roblox toy
+2023-04-28 14:49:00,627 :INFO : test_searchItem :10
+2023-04-28 14:49:03,044 :INFO : test_searchItem :roblox toys
+2023-04-28 14:49:08,721 :INFO : test_searchItem :Item added to cart
+2023-04-28 14:59:56,969 :INFO : test_searchItem :Search roblox item
+2023-04-28 14:59:59,113 :INFO : test_searchItem :Select roblox toys
+2023-04-28 14:59:59,130 :INFO : test_searchItem :10
+2023-04-28 15:00:01,104 :INFO : test_searchItem :roblox toys
+2023-04-28 15:00:06,673 :INFO : test_searchItem :Item added to cart
+2023-04-28 15:02:16,881 :INFO : test_searchItem :Search roblox item
+2023-04-28 15:02:17,023 :INFO : test_searchItem :Select roblox toys
+2023-04-28 15:02:17,239 :INFO : test_searchItem :10
+2023-04-28 15:02:17,300 :INFO : test_searchItem :roblox
+2023-04-28 15:05:42,404 :INFO : test_searchItem :Search roblox item
+2023-04-28 15:05:44,414 :INFO : test_searchItem :Select roblox toys
+2023-04-28 15:07:17,815 :INFO : test_searchItem :Search roblox item
+2023-04-28 15:08:54,108 :INFO : test_searchItem :Search roblox item
+2023-04-28 15:08:56,213 :INFO : test_searchItem :Select roblox toys
+2023-04-28 15:08:56,230 :INFO : test_searchItem :10
+2023-04-28 15:08:58,067 :INFO : test_searchItem :roblox toys
+2023-04-28 15:09:03,874 :INFO : test_searchItem :Item added to cart
+2023-04-29 18:09:14,914 :INFO : test_searchItem :Search roblox item
+2023-04-29 18:09:17,025 :INFO : test_searchItem :Select roblox toys
+2023-04-29 18:09:17,041 :INFO : test_searchItem :10
+2023-04-29 18:09:19,136 :INFO : test_searchItem :roblox toys
+2023-04-29 18:09:26,390 :INFO : test_searchItem :Item added to cart
