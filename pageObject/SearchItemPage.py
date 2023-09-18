@@ -17,3 +17,4 @@ class SearchItemPage:
         self.driver.find_element(*SearchItemPage.MATERIAL).click()
         self.driver.find_element(*SearchItemPage.SELECT).click()
 
+

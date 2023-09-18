@@ -14,6 +14,7 @@ class TestOne(BaseClass):
 
     def test_searchItem(self, signinData):
         log = self.getLogger()
+
         home_page = HomePage(self.driver)
 
         log.info("Search roblox item")
@@ -23,18 +24,19 @@ class TestOne(BaseClass):
 
         log.info("Select roblox toys")
         roblox = home_page.get_items()
-        log.info(len(roblox))
+
         for item in roblox:
             if item.text == "roblox toys":
                 item.click()
                 break
 
-        log.info(home_page.item_selected().get_attribute("value"))
+        #log.info(home_page.item_selected().get_attribute("value"))
 
+        log.info("Add selected item to card")
         result_page = SearchItemPage(self.driver)
         result_page.add_selected_item_to_cart()
 
-        log.info("Item added to cart")
+        log.info("Checkout selected item")
         cart_checkout_page = CartCheckoutPage(self.driver)
         cart_checkout_page.go_to_checkout()
 
