@@ -1,10 +1,7 @@
 import pytest
 from selenium import webdriver
-
 driver = None  # need for the screenshot -> def _capture_screenshot(name):
-
 from selenium.webdriver.chrome.options import Options
-
 from selenium.webdriver.chrome.service import Service
 
 
@@ -21,7 +18,7 @@ def setup(request):  # give this step to return driver / no need to return drive
     if browser_name == "chrome":
         chrome_options = Options()
         chrome_options.add_experimental_option("detach", True)
-        service_obj = Service("/Users/ruthelia/Downloads/chromedriver-mac-arm64/chromedriver")
+        service_obj = Service("/Users/ruthelia/Downloads/chromedriver-mac-arm64 2/chromedriver")
         driver = webdriver.Chrome(service=service_obj, options=chrome_options)
     elif browser_name == "firefox":
         service_obj = Service("/Users/ruthelia/Downloads/geckodriver 2")

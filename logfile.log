@@ -3,3 +3,11 @@
 2023-08-23 07:43:56,795 :INFO : test_searchItem :10
 2023-08-23 07:43:59,052 :INFO : test_searchItem :roblox toys
 2023-08-23 07:44:04,605 :INFO : test_searchItem :Item added to cart
+2023-10-30 19:01:46,047 :INFO : test_searchItem :Search roblox item
+2023-10-30 19:01:48,146 :INFO : test_searchItem :Select roblox toys
+2023-10-30 19:01:50,066 :INFO : test_searchItem :Add selected item to card
+2023-10-30 19:01:51,653 :INFO : test_searchItem :Checkout selected item
+2023-10-30 19:03:47,161 :INFO : test_searchItem :Search roblox item
+2023-10-30 19:03:49,250 :INFO : test_searchItem :Select roblox toys
+2023-10-30 19:03:50,997 :INFO : test_searchItem :Add selected item to card
+2023-10-30 19:04:00,971 :INFO : test_searchItem :Checkout selected item
