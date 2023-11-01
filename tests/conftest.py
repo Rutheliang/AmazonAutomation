@@ -55,6 +55,7 @@ def pytest_runtest_makereport(item):
                        'onclick="window.open(this.src)" align="right"/></div>' % file_name
                 extra.append(pytest_html.extras.html(html))
         report.extra = extra
+        #comment
 
 
 def _capture_screenshot(name):
